@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E8DBB4E-5CC6-4DA3-B066-0FB1924D76CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KIIM.Desktop", "src\KIIM.Desktop\KIIM.Desktop.csproj", "{722BFE2D-08C1-46F3-893C-221263061D0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{722BFE2D-08C1-46F3-893C-221263061D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722BFE2D-08C1-46F3-893C-221263061D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722BFE2D-08C1-46F3-893C-221263061D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722BFE2D-08C1-46F3-893C-221263061D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{722BFE2D-08C1-46F3-893C-221263061D0B} = {5E8DBB4E-5CC6-4DA3-B066-0FB1924D76CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB550B1F-FA99-45EA-AD72-8438C1E1D89D}
+	EndGlobalSection
+EndGlobal

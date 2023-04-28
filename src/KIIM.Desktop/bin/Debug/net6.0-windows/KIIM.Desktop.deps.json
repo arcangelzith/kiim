@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KIIM.Desktop/1.0.0": {
+        "runtime": {
+          "KIIM.Desktop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KIIM.Desktop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
