@@ -13,5 +13,6 @@ namespace KIIM.Desktop
     /// </summary>
     public partial class App : Application
     {
+        
     }
 }

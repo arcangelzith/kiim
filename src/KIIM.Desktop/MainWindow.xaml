@@ -6,8 +6,20 @@
         xmlns:local="clr-namespace:KIIM.Desktop"
         mc:Ignorable="d"
         Title=""
-        Width="200"
-        Height="200">
-    <Image x:Name="imageContainer"
-           Loaded="imageContainer_Loaded" />
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        BorderThickness="0"
+        SizeToContent="WidthAndHeight"
+        MouseDown="Window_MouseDown"
+        Topmost="True"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False">
+    <Window.Resources>
+        <ResourceDictionary Source="/Styles.xaml" />
+    </Window.Resources>
+    <Border x:Name="imageBorder"
+            Width="200"
+            Height="200"
+            CornerRadius="7" />
 </Window>
